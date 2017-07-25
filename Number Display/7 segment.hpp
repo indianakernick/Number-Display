@@ -31,7 +31,6 @@ namespace Display::Seg7 {
 
   chars
   0 1 2 3 4 5 6 7 8 9 A b C d E F
-
   */
 
   enum class Segment {
@@ -41,7 +40,9 @@ namespace Display::Seg7 {
     D,
     E,
     F,
-    G
+    G,
+    
+    NONE
   };
 
   constexpr bool DIGIT_TO_SEG[16][7] = {
