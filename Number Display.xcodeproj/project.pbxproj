@@ -7,16 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45103F671F25EEA0001B24E2 /* Number_Display.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45103F661F25EEA0001B24E2 /* Number_Display.hpp */; };
-		45103F691F25EEA0001B24E2 /* Number_DisplayPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45103F681F25EEA0001B24E2 /* Number_DisplayPriv.hpp */; };
-		45103F6B1F25EEA0001B24E2 /* Number_Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45103F6A1F25EEA0001B24E2 /* Number_Display.cpp */; };
+		45103F731F25EFC5001B24E2 /* 7 segment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45103F711F25EFC5001B24E2 /* 7 segment.cpp */; };
+		45103F741F25EFC5001B24E2 /* 7 segment.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45103F721F25EFC5001B24E2 /* 7 segment.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		45103F771F25F262001B24E2 /* invalid char.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45103F751F25F262001B24E2 /* invalid char.cpp */; };
+		45103F781F25F262001B24E2 /* invalid char.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45103F761F25F262001B24E2 /* invalid char.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		45103F7A1F26F7A8001B24E2 /* 7 segment.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45103F721F25EFC5001B24E2 /* 7 segment.hpp */; };
+		45103F7B1F26F7A8001B24E2 /* invalid char.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45103F761F25F262001B24E2 /* invalid char.hpp */; };
+		45103F7D1F27194F001B24E2 /* libNumber Display.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45103F631F25EEA0001B24E2 /* libNumber Display.dylib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45103F791F26F78F001B24E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/local/include/NumDisplay;
+			dstSubfolderSpec = 0;
+			files = (
+				45103F7A1F26F7A8001B24E2 /* 7 segment.hpp in CopyFiles */,
+				45103F7B1F26F7A8001B24E2 /* invalid char.hpp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45103F7C1F27193B001B24E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/local/lib;
+			dstSubfolderSpec = 0;
+			files = (
+				45103F7D1F27194F001B24E2 /* libNumber Display.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		45103F631F25EEA0001B24E2 /* libNumber Display.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libNumber Display.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45103F661F25EEA0001B24E2 /* Number_Display.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Number_Display.hpp; sourceTree = "<group>"; };
-		45103F681F25EEA0001B24E2 /* Number_DisplayPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Number_DisplayPriv.hpp; sourceTree = "<group>"; };
-		45103F6A1F25EEA0001B24E2 /* Number_Display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Number_Display.cpp; sourceTree = "<group>"; };
+		45103F711F25EFC5001B24E2 /* 7 segment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "7 segment.cpp"; sourceTree = "<group>"; };
+		45103F721F25EFC5001B24E2 /* 7 segment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "7 segment.hpp"; sourceTree = "<group>"; };
+		45103F751F25F262001B24E2 /* invalid char.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "invalid char.cpp"; sourceTree = "<group>"; };
+		45103F761F25F262001B24E2 /* invalid char.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "invalid char.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +78,10 @@
 		45103F651F25EEA0001B24E2 /* Number Display */ = {
 			isa = PBXGroup;
 			children = (
-				45103F661F25EEA0001B24E2 /* Number_Display.hpp */,
-				45103F681F25EEA0001B24E2 /* Number_DisplayPriv.hpp */,
-				45103F6A1F25EEA0001B24E2 /* Number_Display.cpp */,
+				45103F711F25EFC5001B24E2 /* 7 segment.cpp */,
+				45103F721F25EFC5001B24E2 /* 7 segment.hpp */,
+				45103F751F25F262001B24E2 /* invalid char.cpp */,
+				45103F761F25F262001B24E2 /* invalid char.hpp */,
 			);
 			path = "Number Display";
 			sourceTree = "<group>";
@@ -63,8 +93,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45103F671F25EEA0001B24E2 /* Number_Display.hpp in Headers */,
-				45103F691F25EEA0001B24E2 /* Number_DisplayPriv.hpp in Headers */,
+				45103F741F25EFC5001B24E2 /* 7 segment.hpp in Headers */,
+				45103F781F25F262001B24E2 /* invalid char.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +108,8 @@
 				45103F5F1F25EEA0001B24E2 /* Sources */,
 				45103F601F25EEA0001B24E2 /* Frameworks */,
 				45103F611F25EEA0001B24E2 /* Headers */,
+				45103F791F26F78F001B24E2 /* CopyFiles */,
+				45103F7C1F27193B001B24E2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -125,7 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45103F6B1F25EEA0001B24E2 /* Number_Display.cpp in Sources */,
+				45103F771F25F262001B24E2 /* invalid char.cpp in Sources */,
+				45103F731F25EFC5001B24E2 /* 7 segment.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,12 +257,22 @@
 		45103F6F1F25EEA0001B24E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wall",
+					"-Wextra",
+					"-Weffc++",
+					"-Wpedantic",
+					"-Wextra-semi",
+					"-std=c++1z",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -237,12 +280,22 @@
 		45103F701F25EEA0001B24E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wall",
+					"-Wextra",
+					"-Weffc++",
+					"-Wpedantic",
+					"-Wextra-semi",
+					"-std=c++1z",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
