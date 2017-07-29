@@ -14,6 +14,12 @@
 		45103F7A1F26F7A8001B24E2 /* 7 segment.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45103F721F25EFC5001B24E2 /* 7 segment.hpp */; };
 		45103F7B1F26F7A8001B24E2 /* invalid char.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45103F761F25F262001B24E2 /* invalid char.hpp */; };
 		45103F7D1F27194F001B24E2 /* libNumber Display.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45103F631F25EEA0001B24E2 /* libNumber Display.dylib */; };
+		45103F821F27316C001B24E2 /* word.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45103F801F27316C001B24E2 /* word.cpp */; };
+		45103F831F27316C001B24E2 /* word.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45103F811F27316C001B24E2 /* word.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		453892DC1F2B4830007EBB5A /* 5x7 dot matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 453892DA1F2B4830007EBB5A /* 5x7 dot matrix.cpp */; };
+		453892DD1F2B4830007EBB5A /* 5x7 dot matrix.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 453892DB1F2B4830007EBB5A /* 5x7 dot matrix.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		453892DE1F2C09D1007EBB5A /* word.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45103F811F27316C001B24E2 /* word.hpp */; };
+		453892DF1F2C09D1007EBB5A /* 5x7 dot matrix.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 453892DB1F2B4830007EBB5A /* 5x7 dot matrix.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +29,8 @@
 			dstPath = /usr/local/include/NumDisplay;
 			dstSubfolderSpec = 0;
 			files = (
+				453892DE1F2C09D1007EBB5A /* word.hpp in CopyFiles */,
+				453892DF1F2C09D1007EBB5A /* 5x7 dot matrix.hpp in CopyFiles */,
 				45103F7A1F26F7A8001B24E2 /* 7 segment.hpp in CopyFiles */,
 				45103F7B1F26F7A8001B24E2 /* invalid char.hpp in CopyFiles */,
 			);
@@ -46,6 +54,10 @@
 		45103F721F25EFC5001B24E2 /* 7 segment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "7 segment.hpp"; sourceTree = "<group>"; };
 		45103F751F25F262001B24E2 /* invalid char.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "invalid char.cpp"; sourceTree = "<group>"; };
 		45103F761F25F262001B24E2 /* invalid char.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "invalid char.hpp"; sourceTree = "<group>"; };
+		45103F801F27316C001B24E2 /* word.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = word.cpp; sourceTree = "<group>"; };
+		45103F811F27316C001B24E2 /* word.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = word.hpp; sourceTree = "<group>"; };
+		453892DA1F2B4830007EBB5A /* 5x7 dot matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "5x7 dot matrix.cpp"; sourceTree = "<group>"; };
+		453892DB1F2B4830007EBB5A /* 5x7 dot matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "5x7 dot matrix.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,10 @@
 				45103F721F25EFC5001B24E2 /* 7 segment.hpp */,
 				45103F751F25F262001B24E2 /* invalid char.cpp */,
 				45103F761F25F262001B24E2 /* invalid char.hpp */,
+				45103F801F27316C001B24E2 /* word.cpp */,
+				45103F811F27316C001B24E2 /* word.hpp */,
+				453892DA1F2B4830007EBB5A /* 5x7 dot matrix.cpp */,
+				453892DB1F2B4830007EBB5A /* 5x7 dot matrix.hpp */,
 			);
 			path = "Number Display";
 			sourceTree = "<group>";
@@ -93,6 +109,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453892DD1F2B4830007EBB5A /* 5x7 dot matrix.hpp in Headers */,
+				45103F831F27316C001B24E2 /* word.hpp in Headers */,
 				45103F741F25EFC5001B24E2 /* 7 segment.hpp in Headers */,
 				45103F781F25F262001B24E2 /* invalid char.hpp in Headers */,
 			);
@@ -159,6 +177,8 @@
 			files = (
 				45103F771F25F262001B24E2 /* invalid char.cpp in Sources */,
 				45103F731F25EFC5001B24E2 /* 7 segment.cpp in Sources */,
+				45103F821F27316C001B24E2 /* word.cpp in Sources */,
+				453892DC1F2B4830007EBB5A /* 5x7 dot matrix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +339,7 @@
 				45103F701F25EEA0001B24E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

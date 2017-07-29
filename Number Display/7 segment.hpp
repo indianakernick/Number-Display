@@ -45,7 +45,7 @@ namespace Display::Seg7 {
     NONE
   };
 
-  constexpr bool DIGIT_TO_SEG[16][7] = {
+  const bool DIGIT_TO_SEG[16][7] = {
   // a b c d e f g
     {1,1,1,1,1,1,0},//0
     {0,1,1,0,0,0,0},//1
